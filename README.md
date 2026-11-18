@@ -19,4 +19,6 @@ Repurposing old electronics: new firmware, new jobs, and salvaged parts.
 
 Each device folder has a README with notes, open questions, wiring and code.
 
+Projects: [Thrift Synth](projects/thrift-synth/).
+
 Shopping for more? See the [Thrift Store Field Guide](THRIFTING.md).
