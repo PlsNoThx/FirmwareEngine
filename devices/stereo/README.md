@@ -35,8 +35,8 @@
 ### 6. Light-up VU meter
 - Take audio from the NAD's **TAPE OUT**, sample it with the ESP32 (biased into an ADC pin), and drive an LED strip or small display as a spectrum or VU meter.
 
-### 7. Digitize the record collection
-- Turntable -> NAD phono -> TAPE OUT -> Mac mini line-in. Record to FLAC with Audacity and split tracks.
+### 7. Digitize the record collection and VHS tapes
+- **Built:** see [projects/archiver](../../projects/archiver/).
 
 ## Combined system: "Retro hi-fi with modern brains"
 ```
