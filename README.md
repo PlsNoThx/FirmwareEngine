@@ -18,3 +18,5 @@ Repurposing old electronics: new firmware, new jobs, and salvaged parts.
 | [Stereo equipment](devices/stereo/) | List models | Wireless streaming with an ESP32 |
 
 Each device folder has a README with notes, open questions, wiring and code.
+
+Shopping for more? See the [Thrift Store Field Guide](THRIFTING.md).
