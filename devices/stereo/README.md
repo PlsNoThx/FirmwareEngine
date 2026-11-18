@@ -29,6 +29,24 @@
 ### 4. VHS -> DVD -> files
 - The RDR-VX records tapes straight to DVD-R. Rip the DVDs on the Mac mini's drive (it reads DVDs) with HandBrake or ffmpeg.
 
+### 5. Smart jukebox (ESP32 IR + Mac mini web page)
+- The Pioneer changer and both receivers are IR-controlled. One web page (served by the Mac mini) or the ESP32 knob box can pick a disc and track, power on the NAD and switch its input.
+
+### 6. Light-up VU meter
+- Take audio from the NAD's **TAPE OUT**, sample it with the ESP32 (biased into an ADC pin), and drive an LED strip or small display as a spectrum or VU meter.
+
+### 7. Digitize the record collection
+- Turntable -> NAD phono -> TAPE OUT -> Mac mini line-in. Record to FLAC with Audacity and split tracks.
+
+## Combined system: "Retro hi-fi with modern brains"
+```
+ Turntable --phono--> NAD 7220PE <--CD in-- ESP32 streamer (AirPlay/Spotify/BT)
+ CD changer --CD/video-->   |  TAPE OUT --> Mac mini line-in --> Icecast stream --> Sonos rooms
+                            |
+                     speakers                ESP32 IR blaster <-- Mac mini web UI / knob box
+ Sony STR-D590: second zone or synth amp
+```
+
 ## Before anything else: health check
 - [ ] Power on each unit; check the display and lamps.
 - [ ] Test **every input and both channels** on both receivers with a phone or CD player.
